@@ -22,8 +22,15 @@
   },
   "homepage": "https://github.com/UndefinedRolls/pokedex#readme",
   "devDependencies": {
-    "@types/node": "^26.1.0",
+    "@types/node": "^22.20.0",
     "typescript": "^6.0.3",
     "vitest": "^4.1.9"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true,
+    "node@22.23.1": true
+  },
+  "dependencies": {
+    "node": "^22.9.1"
   }
 }

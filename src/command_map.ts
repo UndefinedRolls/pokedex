@@ -1,4 +1,5 @@
-
+import type {CLICommand, State} from "./state.js"
+import {getCommands} from "./commands.js"
 export async function commandMap(state: State) {
     if (state.nextLocationsURL == null && state.prevLocationsURL != null){
         console.log("You are currently on the last page.");

@@ -1,0 +1,17 @@
+
+> pokedex@1.0.0 dev
+> npx tsc && node dist/main.js
+
+Pokedex > pastoria-city-area
+tentacool
+tentacruel
+magikarp
+gyarados
+remoraid
+octillery
+wingull
+pelipper
+shellos
+gastrodon
+Pokedex > undefined
+Closing the Pokedex... Goodbye!

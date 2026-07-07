@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79f55121-7f1e-4e05-bda2-708433e06b96" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command_map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/command_map.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokeapi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokeapi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/repl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,61 +26,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000093011179" />
-      <entry key="MS500" value="1.0280018487217872" />
-      <entry key="S2" value="1.760094712173756" />
-      <entry key="S5" value="3.4516226668007333" />
-      <entry key="S10" value="5.968256224849424" />
-      <entry key="S30" value="11.406236152442595" />
-      <entry key="S60" value="15.28047444395593" />
-      <entry key="M2" value="20.519077966528126" />
-      <entry key="M5" value="43.15061355573063" />
-      <entry key="M10" value="101.18102191653732" />
-      <entry key="M15" value="156.5170148640276" />
-      <entry key="M30" value="264.29654922212507" />
-      <entry key="H1" value="357.9953936647152" />
-      <entry key="H2" value="424.5058512632407" />
-      <entry key="H4" value="465.86436803298346" />
-      <entry key="D1" value="506.16330195220684" />
-      <entry key="W1" value="513.7200658349248" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000095032041465" />
+      <entry key="S5" value="1.0937372160544134" />
+      <entry key="S10" value="2.001272918733817" />
+      <entry key="S30" value="6.148560116270313" />
+      <entry key="S60" value="9.441672374737468" />
+      <entry key="M2" value="14.060897111045804" />
+      <entry key="M5" value="28.795614069536757" />
+      <entry key="M10" value="56.98645627493692" />
+      <entry key="M15" value="85.42083556013289" />
+      <entry key="M30" value="162.16381207987217" />
+      <entry key="H1" value="271.4662852894989" />
+      <entry key="H2" value="414.5197433643893" />
+      <entry key="H4" value="574.9406422289342" />
+      <entry key="D1" value="1008.5749801365058" />
+      <entry key="W1" value="2067.6372554236887" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.5388308874111193E-197" />
-      <entry key="S2" value="6.263220819900549E-50" />
-      <entry key="S5" value="2.0831430279165774E-20" />
-      <entry key="S10" value="1.443309747756564E-10" />
-      <entry key="S30" value="5.246716396847106E-4" />
-      <entry key="S60" value="0.023252475489845856" />
-      <entry key="M2" value="0.17013153607430864" />
-      <entry key="M5" value="0.712059273023269" />
-      <entry key="M10" value="1.4912362451225036" />
-      <entry key="M15" value="2.1419464224573943" />
-      <entry key="M30" value="3.3897300493447076" />
-      <entry key="H1" value="4.4459217074870105" />
-      <entry key="H2" value="5.146633968468382" />
-      <entry key="H4" value="5.552106936184591" />
-      <entry key="D1" value="5.9222043572067395" />
-      <entry key="W1" value="5.988806502288777" />
+      <entry key="MS100" value="2.126760423158484E-269" />
+      <entry key="MS500" value="1.8430779949764826E-54" />
+      <entry key="S2" value="3.6845625066500496E-14" />
+      <entry key="S5" value="4.232084898906832E-6" />
+      <entry key="S10" value="0.0020572031739492414" />
+      <entry key="S30" value="0.12718202295020084" />
+      <entry key="S60" value="0.35662588653966315" />
+      <entry key="M2" value="0.5971816253901573" />
+      <entry key="M5" value="0.814439201680649" />
+      <entry key="M10" value="0.9434918587458668" />
+      <entry key="M15" value="1.095768829889739" />
+      <entry key="M30" value="1.6375824272020327" />
+      <entry key="H1" value="2.5448291595681427" />
+      <entry key="H2" value="4.238956024311273" />
+      <entry key="H4" value="6.759119759615678" />
+      <entry key="D1" value="12.858557768183124" />
+      <entry key="W1" value="22.019816520710418" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8350879195109634" />
-      <entry key="MS500" value="0.9773180307340302" />
-      <entry key="S2" value="1.6474536679132135" />
-      <entry key="S5" value="3.3225073472808146" />
-      <entry key="S10" value="5.844635042686573" />
-      <entry key="S30" value="11.310282374297358" />
-      <entry key="S60" value="15.222496033131087" />
-      <entry key="M2" value="20.618943352725697" />
-      <entry key="M5" value="43.79494614428227" />
-      <entry key="M10" value="102.6041507777587" />
-      <entry key="M15" value="158.59544166656966" />
-      <entry key="M30" value="267.63881137921226" />
-      <entry key="H1" value="362.4113966826965" />
-      <entry key="H2" value="429.63548627858347" />
-      <entry key="H4" value="471.4073721403447" />
-      <entry key="D1" value="512.0838947017222" />
-      <entry key="W1" value="519.7086396286297" />
+      <entry key="MS100" value="0.9201876506248751" />
+      <entry key="MS500" value="0.9835020740262483" />
+      <entry key="S2" value="0.9959291116494187" />
+      <entry key="S5" value="1.0883355926388965" />
+      <entry key="S10" value="1.9858844601398289" />
+      <entry key="S30" value="6.238259589446778" />
+      <entry key="S60" value="9.75685352963975" />
+      <entry key="M2" value="14.616650563571232" />
+      <entry key="M5" value="29.56721575515583" />
+      <entry key="M10" value="57.886215386134644" />
+      <entry key="M15" value="86.47244916338774" />
+      <entry key="M30" value="163.7589872382127" />
+      <entry key="H1" value="273.9754372145737" />
+      <entry key="H2" value="418.73101246101913" />
+      <entry key="H4" value="581.6802771831129" />
+      <entry key="D1" value="1021.4280119750221" />
+      <entry key="W1" value="2089.6557325044946" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -86,6 +95,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.command_map.ts.executor": "Run",
+    "Node.js.commands.ts.executor": "Run",
+    "Node.js.main.ts.executor": "Run",
+    "Node.js.pokeapi.ts.executor": "Debug",
     "Node.js.repl.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -102,6 +115,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.javascript.runtime",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/Users/vcarpenter/Documents/Python_Projects/pokedex/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -109,6 +123,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -127,10 +142,48 @@
       <option name="presentableId" value="Default" />
       <updated>1782945993732</updated>
       <workItem from="1782945994905" duration="4106000" />
+      <workItem from="1782999184900" duration="138000" />
+      <workItem from="1783000076871" duration="55000" />
+      <workItem from="1783000140171" duration="44331000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/commands.ts</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main.ts</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

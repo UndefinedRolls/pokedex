@@ -6,11 +6,11 @@ export function cleanInput(user_str: string): string[]
     return user_str.trim().toLowerCase().split(" ").filter(function (e){return e;})
 }
 
-export function startREPL(state:State) {
+export async function startREPL(state:State) {
 
     state.user_interface.prompt();
 
-    state.user_interface.on('line', (line: string) =>
+    state.user_interface.on('line', async (line: string) =>
         {
             const request = cleanInput(line);
             if (request.length === 0) {
@@ -18,6 +18,8 @@ export function startREPL(state:State) {
                 return;
             }
             const command = request[0];
+            const arg = request[1]
+            console.log(arg)
 
             const cmd = state.command_registry[command];
             if (!cmd){
@@ -25,7 +27,14 @@ export function startREPL(state:State) {
                 state.user_interface.prompt();
                 return;
             }
-            cmd.callback(state);
+            try
+            {
+                await cmd.callback(state, arg);
+            }
+            catch(error)
+            {
+                console.error(error);
+            }
             state.user_interface.prompt();
         }
     )
