@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79f55121-7f1e-4e05-bda2-708433e06b96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/command_pokedex.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/command_map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/command_map.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repl.log" beforeDir="false" afterPath="$PROJECT_DIR$/repl.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command_catch.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/command_catch.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pokeapi.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokeapi.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokeapi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokeapi.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/repl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/repl.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,61 +25,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000095032041465" />
-      <entry key="S5" value="1.0937372160544134" />
-      <entry key="S10" value="2.001272918733817" />
-      <entry key="S30" value="6.148560116270313" />
-      <entry key="S60" value="9.441672374737468" />
-      <entry key="M2" value="14.060897111045804" />
-      <entry key="M5" value="28.795614069536757" />
-      <entry key="M10" value="56.98645627493692" />
-      <entry key="M15" value="85.42083556013289" />
-      <entry key="M30" value="162.16381207987217" />
-      <entry key="H1" value="271.4662852894989" />
-      <entry key="H2" value="414.5197433643893" />
-      <entry key="H4" value="574.9406422289342" />
-      <entry key="D1" value="1008.5749801365058" />
-      <entry key="W1" value="2067.6372554236887" />
+      <entry key="MS100" value="1.0497264258308932" />
+      <entry key="MS500" value="1.6522106694060126" />
+      <entry key="S2" value="2.8413283244626677" />
+      <entry key="S5" value="4.446671523082594" />
+      <entry key="S10" value="6.181239434913807" />
+      <entry key="S30" value="8.412945904722328" />
+      <entry key="S60" value="10.125823950396985" />
+      <entry key="M2" value="15.653870405531595" />
+      <entry key="M5" value="34.757087059986645" />
+      <entry key="M10" value="59.1844261934465" />
+      <entry key="M15" value="84.21934392770693" />
+      <entry key="M30" value="183.32553271559306" />
+      <entry key="H1" value="383.57798489486663" />
+      <entry key="H2" value="673.9980472536242" />
+      <entry key="H4" value="1017.0427166707775" />
+      <entry key="D1" value="1811.247114979923" />
+      <entry key="W1" value="2985.2494174431736" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.126760423158484E-269" />
-      <entry key="MS500" value="1.8430779949764826E-54" />
-      <entry key="S2" value="3.6845625066500496E-14" />
-      <entry key="S5" value="4.232084898906832E-6" />
-      <entry key="S10" value="0.0020572031739492414" />
-      <entry key="S30" value="0.12718202295020084" />
-      <entry key="S60" value="0.35662588653966315" />
-      <entry key="M2" value="0.5971816253901573" />
-      <entry key="M5" value="0.814439201680649" />
-      <entry key="M10" value="0.9434918587458668" />
-      <entry key="M15" value="1.095768829889739" />
-      <entry key="M30" value="1.6375824272020327" />
-      <entry key="H1" value="2.5448291595681427" />
-      <entry key="H2" value="4.238956024311273" />
-      <entry key="H4" value="6.759119759615678" />
-      <entry key="D1" value="12.858557768183124" />
-      <entry key="W1" value="22.019816520710418" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="2.333427119806783E-194" />
+      <entry key="S10" value="1.5275559359068875E-97" />
+      <entry key="S30" value="5.3542561675846546E-33" />
+      <entry key="S60" value="7.677614882186147E-17" />
+      <entry key="M2" value="1.1490912361034405E-8" />
+      <entry key="M5" value="0.0013191542918436444" />
+      <entry key="M10" value="0.07302069194087467" />
+      <entry key="M15" value="0.29848922087792323" />
+      <entry key="M30" value="1.4111200469637624" />
+      <entry key="H1" value="3.5285335246171208" />
+      <entry key="H2" value="6.448678749330104" />
+      <entry key="H4" value="10.261784673955393" />
+      <entry key="D1" value="20.022516889236808" />
+      <entry key="W1" value="30.589283398985334" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9201876506248751" />
-      <entry key="MS500" value="0.9835020740262483" />
-      <entry key="S2" value="0.9959291116494187" />
-      <entry key="S5" value="1.0883355926388965" />
-      <entry key="S10" value="1.9858844601398289" />
-      <entry key="S30" value="6.238259589446778" />
-      <entry key="S60" value="9.75685352963975" />
-      <entry key="M2" value="14.616650563571232" />
-      <entry key="M5" value="29.56721575515583" />
-      <entry key="M10" value="57.886215386134644" />
-      <entry key="M15" value="86.47244916338774" />
-      <entry key="M30" value="163.7589872382127" />
-      <entry key="H1" value="273.9754372145737" />
-      <entry key="H2" value="418.73101246101913" />
-      <entry key="H4" value="581.6802771831129" />
-      <entry key="D1" value="1021.4280119750221" />
-      <entry key="W1" value="2089.6557325044946" />
+      <entry key="MS100" value="0.20646258532490974" />
+      <entry key="MS500" value="0.9868881079603433" />
+      <entry key="S2" value="2.246763540647729" />
+      <entry key="S5" value="3.981241523732984" />
+      <entry key="S10" value="5.854149842726251" />
+      <entry key="S30" value="8.268113596492178" />
+      <entry key="S60" value="10.038923148513865" />
+      <entry key="M2" value="15.586400488826218" />
+      <entry key="M5" value="34.699766778451554" />
+      <entry key="M10" value="59.208940597529" />
+      <entry key="M15" value="84.47240831615628" />
+      <entry key="M30" value="184.68879711027063" />
+      <entry key="H1" value="387.0586834184791" />
+      <entry key="H2" value="680.405611208872" />
+      <entry key="H4" value="1027.2733508205765" />
+      <entry key="D1" value="1831.2603218644047" />
+      <entry key="W1" value="3015.8367316422505" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -109,7 +108,7 @@
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/vcarpenter/Documents/Python_Projects/pokedex",
+    "last_opened_file_path": "/Users/vcarpenter/Documents/Python_Projects/pokedex/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,6 +121,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
@@ -144,7 +146,7 @@
       <workItem from="1782945994905" duration="4106000" />
       <workItem from="1782999184900" duration="138000" />
       <workItem from="1783000076871" duration="55000" />
-      <workItem from="1783000140171" duration="44331000" />
+      <workItem from="1783000140171" duration="52598000" />
     </task>
     <servers />
   </component>
@@ -173,7 +175,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/commands.ts</url>
-          <line>6</line>
+          <line>9</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>

@@ -19,7 +19,6 @@ export async function startREPL(state:State) {
             }
             const command = request[0];
             const arg = request[1]
-            console.log(arg)
 
             const cmd = state.command_registry[command];
             if (!cmd){

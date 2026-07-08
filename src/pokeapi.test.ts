@@ -1,6 +1,8 @@
 import { PokeAPI } from "./pokeapi.js";
-import { describe, it, expect} from "vitest";
-
+import { describe, it, expect, vi, beforeEach, afterEach} from "vitest";
+import type {State} from "./state.js";
+import type {Pokemon} from "./pokeapi.js"
+import {commandInspect} from "./command_inspect.js"
 describe("pokeAPI.fetchLocation", () => {
     it("fetches canalave-city-area", async () => {
         const api = new PokeAPI();

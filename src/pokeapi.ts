@@ -41,7 +41,21 @@ export class PokeAPI {
 
         return location_data;
     }
+
+    async catchPokemon(pokemon: string): Promise<Pokemon>{
+        if (!pokemon){
+            throw new Error("Catching air is easy, but try it over there");
+        }
+        const pokeURL = `${PokeAPI.baseURL}/pokemon/${pokemon}`;
+        const response = await fetch(pokeURL);
+        if (!response.ok){
+            throw new Error(`HTTP error: ${response.status}`);
+        }
+        const pokemon_data =  await response.json();
+        return pokemon_data;
+    }
 }
+
 
 export type ShallowLocations = {
     count: number;
@@ -72,5 +86,72 @@ export type Location = {
                 min_level: number}>
             max_chance: number,
             version: {name:string, url:string}}>}>
+
+}
+
+export type Pokemon = {
+    abilities: Array<{
+        ability: {name:string, url:string},
+        is_hidden: boolean,
+        slot: number
+    }>,
+    base_experience: number,
+    cries: {latest: string, legacy: string},
+    forms: Array<{
+        name: string, url: string}>,
+    game_indicies: Array<{
+        game_index: number,
+        version: {name: string, url: string}
+    }>,
+    height: number,
+    held_items: Array<{name: string, url:string}>,
+    id: number,
+    is_default: boolean,
+    location_area_encounters: string,
+    moves: Array<{
+        move: {name: string, url: string},
+        version_group_details: Array<{
+            level_learned_at: number,
+            move_learn_method: {name: string, url: string},
+            order: string|null,
+            version_group: {name: string, url: string},
+        }>
+    }>,
+    name: string,
+    order: number,
+    past_abilities: Array<{
+        abilities: {is_hidden:boolean, slot:number, ability: string|null},
+        generation: {name:string, url: string}
+    }>,
+    past_stats: Array<{
+        generation: {name: string, url: string},
+        stats: Array<{
+            base_stat: number,
+            effort: number,
+            stat: {name:string, url:string}
+        }>
+    }>,
+    past_types: Array<string>,
+    species: {name:string, url:string},
+    sprites: {
+        back_default: string,
+        back_female: string | null,
+        back_shiny: string|null,
+        back_shiny_female: string|null,
+        front_default: string,
+        front_female: string | null,
+        front_shiny: string | null,
+        front_shiny_female: string | null,
+    },
+    stats: Array<{
+        base_stat: number,
+        effot: number,
+        stat: {name:string, url:string},
+    }>,
+    types: Array<{
+        slot:number,
+        type: {name:string, url:string},
+    }>,
+    weight: number
 
 }
